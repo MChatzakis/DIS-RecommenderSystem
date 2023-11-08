@@ -13,22 +13,13 @@ We describe our approach in our report (report/Report.pdf), as well us our final
 
 ## Contents
 - src/
-    - models/
-        - Code for all implemented information retrieval models (TF-iDF, Doc2vec, DSSM, BM25)
-    - preprocessors/
-        - Code for all preprocessing and query expansion techniques
-    - scripts/
-        - Pipelines for model training, text preprocessing, query expansion
-    - testing/
-            - Examples of model usage
-    - IR_Utils.ipynb: Utility functions for IR
-    - kaggle.ipynb: Final competition notebook, implementing our final best scoring approach
+    - Complete code for Collaborative Filtering, Content-Based Filtering, Matrix Factorization and Kaggle Submission
 
 - report/
-    - report.pdf: A brief report describing our approach
+    - report.pdf: A 2-page report describing our approach
 
 - data/
-    - Movielens data
+    - MovieLens data
 
 ## Data Availability
 Test and training query splits are present under data/ directory. Every other needed file is available at [Google Drive](https://drive.google.com/drive/folders/1Vw6yYoB8Akq_kde3RIS4y9HQdMXjih07)
